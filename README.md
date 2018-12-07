@@ -29,8 +29,15 @@ The task is episodic and is considered solved when the agent gets an averge scor
     
 To train the agent on Amazon Web Services (AWS), and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-Create and activate a Python 3.6 environment using Anaconda (name_of_environment can be replaced with any name):
+(1) Create and activate a Python 3.6 environment using Anaconda:
    
    	conda create --name name_of_environment python=3.6
 	source activate name_of_environment
 
+(2) Clone repository and install dependencies
+
+```bash
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+```
