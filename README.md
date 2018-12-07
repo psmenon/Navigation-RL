@@ -60,7 +60,7 @@ Note - The agent is trained using Double DQN. If you want to enable prioritized 
 agent = Agent(state_size,action_size,seed,prioritized=False,dueling=False)
 ```
 
-## Files
+## Files inside P1-Navigation
 ```bash
 dqn_agent.py - contains the Agent .
 
