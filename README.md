@@ -53,3 +53,9 @@ $ unzip Banana_Linux.zip
 ```bash
 $ jupyter notebook
 ```
+
+Note - The agent is trained using Double DQN. If you want to enable prioritized experience replay and dueling networks. Set the arguments to true:
+
+```bash
+agent = Agent(state_size,action_size,seed,prioritized=False,dueling=True)
+```
