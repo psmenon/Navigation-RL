@@ -63,6 +63,10 @@ agent = Agent(state_size,action_size,seed,prioritized=False,dueling=False)
 ## Files
 ```bash
 dqn_agent.py contains the Agent .
+
 model.py contains the Pytorch neural network .
-Navigation.ipynb is the code entry point for starting the environment and the training loop (includes description of solution).
+
+Navigation-DDQN.ipynb is the code entry point for starting the environment and the training loop (includes description of solution).
+
 bananaweightsreplay.pth contains the weights of the Pytorch model once the environment is successfully solved using DDQN
+```
