@@ -50,4 +50,6 @@ $ unzip Banana_Linux.zip
 
 (4)  Launch Jupyter notebook
 
+```bash
 $ jupyter notebook
+```
