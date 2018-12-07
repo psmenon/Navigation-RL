@@ -37,7 +37,17 @@ To train the agent on Amazon Web Services (AWS), and have not [enabled a virtual
 (2) Clone repository and install dependencies
 
 ```bash
-git clone https://github.com/udacity/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
+git clone https://github.com/psmenon/Navigation-RL.git
+cd python
 pip install .
 ```
+
+(3) Place the environment file Banana_Linux.zip in the p1_navigation/ folder and unzip the file:
+
+```bash
+$ unzip Banana_Linux.zip
+```
+
+(4)  Launch Jupyter notebook
+
+$ jupyter notebook
