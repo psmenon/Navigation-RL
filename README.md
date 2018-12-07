@@ -66,6 +66,8 @@ dqn_agent.py - contains the Agent .
 
 model.py -  contains the Pytorch neural network .
 
+SumTree.py - the sumtree data structure for Prioritized experience replay
+
 Navigation-DDQN.ipynb -  is the code.
 
 bananaweightsreplay.pth -  contains the weights of the solved model
