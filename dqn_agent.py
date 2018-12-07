@@ -84,8 +84,6 @@ class Agent():
             gamma (float): discount factor
         """
         states, actions, rewards, next_states, dones = experiences
-
-        ## TODO: compute and minimize the loss
         
         action_idxs = self.qnetwork_local(next_states).detach().max(1)[1].unsqueeze(1)
         
