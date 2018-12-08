@@ -71,4 +71,6 @@ SumTree.py - the sumtree data structure for Prioritized experience replay
 Navigation-DDQN.ipynb -  is the code.
 
 bananaweightsreplay.pth -  contains the weights of the solved model
+
+Report.pdf - the project report
 ```
